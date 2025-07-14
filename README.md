@@ -78,4 +78,12 @@ db.json             # Mock database (json-server)
 
 ---
 
+## ✍️ Autor
+
+**Emanuel Gaviria** **LoveLace** **Gaviriacardonaemanuel@gmail.com** **1000920354**
+Software Development Student
+Developed as part of a practical exercise to apply knowledge about DOM, local storage and validation of forms in JavaScript.
+
+---
+
 If you need more details about any file or function, feel free to ask!
