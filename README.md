@@ -1,12 +1,12 @@
-# Simulacro Platform
-
+# SPA Event Manager
 A Single Page Application (SPA) for course and user management, built with Vite, Vanilla JS, and SweetAlert2.
+---
 
 ## Features
 
 - **User login and registration**
 - **Roles:** admin and visitor
-- **Admin dashboard:** manage users and courses
+- **Admin dashboard:** manage events
 - **Public panel:** enroll in available courses
 - **SPA navigation:** no page reloads
 - **User-friendly alerts:** SweetAlert2
@@ -14,14 +14,13 @@ A Single Page Application (SPA) for course and user management, built with Vite,
 ## Folder Structure
 
 ```
-src/
-  assets/           # CSS styles
-  components/       # Sidebar and header components
-  pages/            # admin.js, public.js, login.js, register.js
-  services/         # api.js (fetch requests)
-  templates/        # HTML for each view
-main.js             # Main SPA logic and routing
-db.json             # Mock database (json-server)
+## 🚀 Used technologies
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Web Storage API (LocalStorage & SessionStorage)
+
 ```
 
 ## Installation
@@ -55,7 +54,7 @@ db.json             # Mock database (json-server)
 - **Visitor:**  
   Access `/public` if your role is `visitante`.
 - **Enrollment:**  
-  Visitors can enroll in available courses.
+  Visitors can enroll in available events.
 
 ## Main Code (`main.js`)
 
