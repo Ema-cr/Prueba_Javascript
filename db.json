@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@admin.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "1234567890",
+      "enrollNumber": "98765432100000",
+      "dateOfAdmission": "01-Jan-2020"
+    },
+    {
+      "id": "2",
+      "name": "User",
+      "email": "user@user.com",
+      "password": "user123",
+      "role": "visitante",
+      "phone": "3334547890",
+      "enrollNumber": "236765430540",
+      "dateOfAdmission": "07-Mar-2011"
+    },
+    {
+      "id": "1752504054239",
+      "name": "Ema",
+      "email": "mardicionmauro@hotmail.com",
+      "password": "qwer123"
+    },
+    {
+      "id": "1752504880447",
+      "name": "remolacha",
+      "email": "klkmanito@hotmail.com",
+      "password": "qwer123",
+      "role": "visitante"
+    },
+    {
+      "id": "1752508912971",
+      "name": "Mauricio Cardenas",
+      "email": "mauroelmagico@hotmail.com",
+      "password": "qwer123",
+      "role": "visitante"
+    }
+  ],
+  "events": [
+    {
+      "title": "Un sancocho",
+      "description": "Evento Sancochada",
+      "eventDate": "12/11/2025",
+      "id": "1"
+    },
+    {
+      "title": "paseo a maracaibo",
+      "description": "vamos de paseo",
+      "eventDate": "24/05/2025",
+      "id": "c58a"
+    },
+    {
+      "id": "74e6",
+      "title": "excursion a iran",
+      "description": "a",
+      "eventDate": "2025-07-19",
+      "capacity": "6"
+    },
+    {
+      "id": "de6b",
+      "title": "aaa",
+      "description": "aw",
+      "eventDate": "2025-07-06",
+      "capacity": "2"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "userId": 2,
+      "eventId": 1
+    },
+    {
+      "id": "a2c3",
+      "userId": "2",
+      "eventId": 1
+    },
+    {
+      "id": "92f6",
+      "userId": "2",
+      "eventId": 1
+    },
+    {
+      "id": "8120",
+      "userId": "2",
+      "eventId": 1
+    },
+    {
+      "id": "4128",
+      "userId": "2",
+      "eventId": 1
+    },
+    {
+      "id": "bf5d",
+      "userId": "1",
+      "eventId": null
+    }
+  ]
+}
